@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1574739606 source:d:\zorzano_nombre_1f_sp\ecomputer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eComputer.h"
+
+1574739606 source:d:\zorzano_nombre_1f_sp\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"eComputer.h"
+
+1574738908 d:\zorzano_nombre_1f_sp\linkedlist.h
+
+1574739606 d:\zorzano_nombre_1f_sp\ecomputer.h
+
+1574740111 source:d:\zorzano_nombre_1f_sp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"eComputer.h"
+	"Parser.h"
+
+1574732111 source:d:\zorzano_nombre_1f_sp\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1574728963 d:\zorzano_nombre_1f_sp\validaciones.h
+
+1574734291 source:d:\zorzano_nombre_1f_sp\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"eComputer.h"
+	"Parser.h"
+
+1574732441 d:\zorzano_nombre_1f_sp\parser.h
+
+1574736839 source:d:\zorzano_nombre_1f_sp\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"eComputer.h"
+	"Parser.h"
+
+1574734394 d:\zorzano_nombre_1f_sp\controller.h
+
