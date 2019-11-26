@@ -697,24 +697,32 @@ char ll_map(LinkedList* this, float (*pFunc)(void*))
 }
 
 
-LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void* computers, char idTipo))
+LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void* computers, int idTipo))
 {
     LinkedList* filterList;
     int filterRet;
     void* pElement;
-    char idTipoAux;
+    int tipoAux;
 
     filterList = ll_newLinkedList();
     if(filterList != NULL)
     {
-        for(int i = 0; i < ll_len(this); i++)
+
+        printf("\nIngrese Tipo 1(Desktop) 2(Laptop): ");
+        scanf("%d", &tipoAux);
+        for(int i = 0; i < ll_len(this);i++)
         {
-            pElement = ll_get(this, i);
-            filterRet = pFunc(pElement, idTipoAux);
-            ll_add(filterList, pElement);
+           pElement = ll_get(this, i);
+           filterRet = pFunc(pElement, tipoAux);
+           if(filterRet == 0)
+           {
+               ll_add(filterList, pElement);
+           }
+           else if(filterRet == 1)
+           {
+              ll_remove(filterList, pElement);
+           }
         }
     }
     return  filterList;
 }
-
-

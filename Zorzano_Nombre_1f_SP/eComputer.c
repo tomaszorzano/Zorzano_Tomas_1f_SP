@@ -211,16 +211,23 @@ int eComputer_comparaTipos(void* pTipo1,void* pTipo2)
     }
     return 0;
 }
-int eComputer_computersType(void* computers, int tipo)
+int eComputer_computersType(void* computers, int idTipo)
 {
     int retAux = 2;
-    void* filterZona;
+    void* filteridTipo;
     if(((eComputer*)computers)->idTipo == 2 )
     {
-        filterZona = ((eComputer*)computers);
+        filteridTipo = ((eComputer*)computers);
         retAux = 0;
     }
+    else if(((eComputer*)computers)->idTipo == 1)
+    {
+        filteridTipo = ((eComputer*)computers);
+        retAux = 1;
+    }
+
     return retAux;
 }
+//((eComputer*)computers)->idTipo
 
 

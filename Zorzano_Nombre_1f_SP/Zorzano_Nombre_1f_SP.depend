@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1574739606 source:d:\zorzano_nombre_1f_sp\ecomputer.c
+1574741674 source:d:\zorzano_nombre_1f_sp\ecomputer.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -12,11 +12,11 @@
 	"LinkedList.h"
 	"eComputer.h"
 
-1574738908 d:\zorzano_nombre_1f_sp\linkedlist.h
+1574741242 d:\zorzano_nombre_1f_sp\linkedlist.h
 
 1574739606 d:\zorzano_nombre_1f_sp\ecomputer.h
 
-1574740111 source:d:\zorzano_nombre_1f_sp\main.c
+1574741242 source:d:\zorzano_nombre_1f_sp\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
